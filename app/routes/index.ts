@@ -1,11 +1,11 @@
 import { Router } from 'express';
 
-import joinUsRouter from './join-us'
+import dsaRouter from './dsa'
 
 export default function () {
     const app = Router();
 
-    joinUsRouter(app);
+    dsaRouter(app);
 
     return app;
 }
